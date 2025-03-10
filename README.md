@@ -6,3 +6,7 @@ This project was also made possible with the help of the [Hex Editor Extension f
 ## 🖼️ Preview  
 ![image](./res/new.bmp)
 
+## 🚀 How to Try It Out  
+If you want to try the tool out, download from the `src` folder, and build the `src/main.cpp` file from the top directory.  
+The tool takes the `.ppm` file directly from the path `res/example.ppm` and will output directly to `res/out.bmp`.  
+**Note**: Currently, there is a bug that mirrors the output from the original.
