@@ -103,8 +103,8 @@ std::string getHeaderString(int w, int h){
 }
 
 int main(){
-  std::ifstream inFile("example.ppm");
-  std::ofstream outFile("new.bmp", std::ofstream::binary);
+  std::ifstream inFile("res/example.ppm");
+  std::ofstream outFile("res/out.bmp", std::ofstream::binary);
   int width = 256;
   int height = 256;
 
