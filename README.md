@@ -1,4 +1,5 @@
-# (WIP) PPM to BMP Converter
-Just a converter I created to share my raytracing .ppm files online a little easier, still work in process but I would like to make it a CLI.
+# 📂 (WIP) PPM to BMP Converter  
+A simple utility I created to make sharing my raytracing `.ppm` files online easier. Currently a work in progress, but the goal is to eventually turn it into a fully functional Command-Line Interface (CLI) tool.  
 
+## 🖼️ Preview  
 ![image](./res/new.bmp)
