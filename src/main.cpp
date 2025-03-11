@@ -73,7 +73,6 @@ std::string makeColorTable(int r, int g, int bl){
   std::string f = intToString(bl%16);
   
   return e + f + " " + c + d + " " + a + b + " ";
-  // return "0" + std::to_string(r) + " 0" + std::to_string(g) + " 0" + std::to_string(b) + " ";
 }
 
 std::string makeByteArr(int i){
@@ -123,10 +122,6 @@ int main(){
   std::string headStr;
   
   while (getline (inFile, newLine)) {
-    // Output the text from the file
-    if (i < 3){
-      std::cout << newLine << "\n";
-    }
 
     if (i == 1){
       std::string wText = newLine.substr(0, 3);
