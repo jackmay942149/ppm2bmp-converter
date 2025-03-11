@@ -103,8 +103,17 @@ std::string getHeaderString(int w, int h){
 }
 
 int main(){
-  std::ifstream inFile("res/example.ppm");
-  std::ofstream outFile("res/out.bmp", std::ofstream::binary);
+  std::string inString;
+  std::string outString;
+  
+  std::cout << "Please enter a filepath for the input ppm file eg. res/example.ppm: ";
+  std::cin >> inString;
+
+  std::cout << "Please enter a filepath for the output bmp file eg. res/output.bmp: ";
+  std::cin >> outString;
+  
+  std::ifstream inFile(inString);
+  std::ofstream outFile(outString, std::ofstream::binary);
   int width = 256;
   int height = 256;
 
